@@ -1,0 +1,11 @@
+{
+	"title"		:	"Holy Hand Grenade TTT (Model Fixed)",
+	"type"		:	"Weapon",
+	"tags"		:	[ "comic", "fun" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
