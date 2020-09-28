@@ -1,4 +1,6 @@
-
+SWEP.detonate_timer        = 3   /*This number is seconds from when the grenade is thrown to when the 
+                                    sound plays, actual time from grenade activation to detonation is 
+                                    this timer + 1.5 seconds */
 if SERVER then
    AddCSLuaFile( "weapon_ttt_holyhandgrenade.lua" )
    resource.AddFile("materials/vgui/ttt/icon_holyhandgrenade.png")
@@ -42,6 +44,7 @@ SWEP.ViewModelFOV		= 54
 SWEP.ViewModel			= "models/weapons/c_models/HolyHandGrenade.mdl"
 SWEP.WorldModel			= "models/weapons/w_models/HolyHandGrenade.mdl"
 SWEP.Weight			= 5
+
 
 function SWEP:GetGrenadeName()
    return "ttt_holyhandgrenade_proj"
