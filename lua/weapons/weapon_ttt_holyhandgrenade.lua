@@ -38,10 +38,10 @@ SWEP.AdminSpawnable = true
 
 SWEP.AutoSpawnable      = true
 
-SWEP.UseHands			= false
+SWEP.UseHands			= true
 SWEP.ViewModelFlip		= false
 SWEP.ViewModelFOV		= 54
-SWEP.ViewModel			= "models/weapons/c_models/HolyHandGrenade.mdl"
+SWEP.ViewModel			= "models/weapons/c_models/c_HolyHandGrenade.mdl"
 SWEP.WorldModel			= "models/weapons/w_models/HolyHandGrenade.mdl"
 SWEP.Weight			= 5
 
